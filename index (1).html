@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template AI - Generador de Plantillas Discord</title>
+    <meta name="description" content="Genera plantillas promocionales personalizadas para servidores de Discord con IA. 3 estilos únicos optimizados para el límite de 2000 caracteres.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Template AI - Generador de Plantillas Discord">
+    <meta property="og:description" content="Crea plantillas promocionales increíbles para tu servidor de Discord con el poder de la IA.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="bot-icon">🤖</span>
+                <span class="brand-text">Template AI</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Características</a>
+                <a href="#generator">Generador</a>
+                <button class="btn-primary" onclick="scrollToGenerator()">Empezar</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-visual">
+                <div class="hero-icon">🤖</div>
+            </div>
+            <h1 class="hero-title">Crea promociones perfectas para tu servidor de Discord</h1>
+            <p class="hero-subtitle">Genera plantillas atractivas con IA. Obtén 3 versiones únicas optimizadas para el límite de 2000 caracteres de Discord.</p>
+            <button class="btn-hero" onclick="scrollToGenerator()">
+                <span class="bot-icon">🤖</span>
+                Empieza ahora
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección Características -->
+    <section id="features" class="features">
+        <div class="features-container">
+            <div class="features-header">
+                <h2>Características Potentes</h2>
+                <p>Todo lo que necesitas para crear promociones atractivas para servidores de Discord</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Generación con IA</h3>
+                    <p>La IA avanzada crea plantillas personalizadas según las características y objetivos únicos de tu servidor.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>3 Estilos Únicos</h3>
+                    <p>Obtén versiones formales, emocionales y épicas para adaptarse a diferentes estrategias de promoción.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Optimización de Caracteres</h3>
+                    <p>Todas las plantillas cumplen con el límite de 2000 caracteres de Discord con un contador en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Generador -->
+    <section id="generator" class="generator">
+        <div class="generator-container">
+            <div class="generator-header">
+                <h2>Generador de Plantillas</h2>
+                <p>Chatea con nuestra IA para crear tu promoción perfecta</p>
+            </div>
+
+            <!-- Botón de inicio -->
+            <div id="start-section" class="start-section">
+                <button class="btn-large" onclick="startChat()">
+                    <span class="bot-icon">🤖</span>
+                    Iniciar Chat con la IA
+                </button>
+            </div>
+
+            <!-- Interfaz de chat -->
+            <div id="chat-interface" class="chat-interface hidden">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="traffic-lights">
+                            <div class="light red"></div>
+                            <div class="light yellow"></div>
+                            <div class="light green"></div>
+                        </div>
+                        <span class="chat-title">Asistente de Template AI</span>
+                        <div class="status">
+                            <div class="status-dot"></div>
+                            <span>En línea</span>
+                        </div>
+                    </div>
+                    <div id="chat-messages" class="chat-messages"></div>
+                    <div class="chat-input">
+                        <input type="text" id="user-input" placeholder="Escribe tu respuesta aquí..." disabled>
+                        <button id="send-btn" onclick="sendMessage()" disabled>
+                            <span id="send-icon">📤</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-info">
+                        <span>Progreso</span>
+                        <span id="progress-text">1/7 preguntas</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Resultados -->
+    <section id="results" class="results hidden">
+        <div class="results-container">
+            <div class="results-header">
+                <h2>Tus Plantillas Generadas</h2>
+                <p>Elige entre 3 estilos únicos, todos optimizados para Discord</p>
+            </div>
+            <div id="templates-grid" class="templates-grid"></div>
+            <div class="results-actions">
+                <button class="btn-download" onclick="downloadAllTemplates()">
+                    <span>📥</span>
+                    Descargar Todas las Plantillas
+                </button>
+                <button class="btn-secondary" onclick="startOver()">
+                    <span>🔄</span>
+                    Crear Otra Plantilla
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="bot-icon">🤖</span>
+                        <span>Template AI</span>
+                    </div>
+                    <p>Crea promociones increíbles para servidores de Discord con el poder de la IA. Rápido, fácil y efectivo.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Características</h4>
+                    <ul>
+                        <li>Generación con IA</li>
+                        <li>Múltiples Estilos de Plantilla</li>
+                        <li>Optimización de Caracteres</li>
+                        <li>Vista previa en tiempo real</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Referencia API</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Repositorio en GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Discord Template AI. Hecho con ❤️ para la comunidad de Discord.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
