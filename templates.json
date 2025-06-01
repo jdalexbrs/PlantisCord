@@ -1,0 +1,82 @@
+
+{
+  "formal": {
+    "name": "Formal Style",
+    "icon": "💼",
+    "class": "formal",
+    "structure": {
+      "header": "╔═══════════════════════════════╗\n║          **{serverName}**          ║\n╚═══════════════════════════════╝",
+      "info": "📋 **INFORMACIÓN DEL SERVIDOR**\n• Tipo: {serverType}\n• Características: {features}",
+      "requirements": "👥 **REQUISITOS DE MIEMBROS**\n{memberRequirements}",
+      "staff": "🔧 **STAFF**\n{staff}",
+      "banner": "🔗 **ENLACE/BANNER**\n{banner}",
+      "additional": "📌 **INFORMACIÓN ADICIONAL**\n{additionalInfo}",
+      "footer": "🎯 **¡Únete a nuestra comunidad profesional!**\ndiscord.gg/ejemplo"
+    }
+  },
+  "emotional": {
+    "name": "Emotional Style",
+    "icon": "💖",
+    "class": "emotional",
+    "structure": {
+      "header": "💖 ═══════════════════════════════ 💖\n        ✨ **{serverName}** ✨\n💖 ═══════════════════════════════ 💖",
+      "welcome": "🌟 **¡Bienvenido a nuestro hogar!** 🌟",
+      "info": "Somos una comunidad {serverType} llena de amor y amistad donde encontrarás:\n💕 {features}",
+      "requirements": "🤗 **Buscamos personas como tú:**\n{memberRequirements}",
+      "staff": "👑 **Nuestro increíble equipo:**\n❤️ {staff}",
+      "banner": "🎨 **¡Mira lo que tenemos para ti!**\n🔗 {banner}",
+      "additional": "💝 **Algo especial:**\n{additionalInfo}",
+      "footer": "🏠 **¡Ven y forma parte de nuestra familia!**\n💕 discord.gg/ejemplo 💕\n\n¡Te esperamos con los brazos abiertos! 🤗"
+    }
+  },
+  "epic": {
+    "name": "Epic Style",
+    "icon": "👑",
+    "class": "epic",
+    "structure": {
+      "header": "⚔️ ═══════════════════════════════ ⚔️\n    🔥 **{serverName}** 🔥\n⚔️ ═══════════════════════════════ ⚔️",
+      "battle": "🛡️ **¡PREPÁRATE PARA LA BATALLA!** ⚡",
+      "info": "💥 Somos una comunidad {serverType} ÉPICA que domina:\n🔥 {features}",
+      "requirements": "⚡ **¡RECLUTAMOS GUERREROS!**\n🎯 {memberRequirements}",
+      "staff": "👑 **NUESTROS LÍDERES SUPREMOS:**\n⚔️ {staff}",
+      "banner": "🏆 **¡OBSERVA NUESTRO PODER!**\n💥 {banner}",
+      "additional": "🌟 **MISIÓN ESPECIAL:**\n🔥 {additionalInfo}",
+      "footer": "🚀 **¡ÚNETE A LA LEYENDA!**\n⚔️ discord.gg/ejemplo ⚔️\n\n🔥 ¡EL DESTINO TE ESPERA! 🔥"
+    }
+  },
+  "responses": {
+    "serverName": {
+      "filters": ["el nombre de mi servidor es", "se llama", "mi servidor", "nuestro servidor"],
+      "cleanPatterns": ["^(el nombre de mi servidor es|se llama|mi servidor|nuestro servidor)\\s*", "^(es|se llama)\\s*", "\"", "'"]
+    },
+    "serverType": {
+      "filters": ["es una comunidad", "somos", "es un servidor de", "tipo"],
+      "cleanPatterns": ["^(es una comunidad|somos|es un servidor de|tipo)\\s*", "^(de|del|la)\\s*"]
+    },
+    "features": {
+      "filters": ["ofrecemos", "tenemos", "características", "beneficios"],
+      "cleanPatterns": ["^(ofrecemos|tenemos|características|beneficios)\\s*", "^(son|incluyen)\\s*"]
+    },
+    "memberRequirements": {
+      "filters": ["buscamos", "necesitamos", "requisitos", "queremos"],
+      "cleanPatterns": ["^(buscamos|necesitamos|requisitos|queremos)\\s*", "^(que sean|personas)\\s*"]
+    },
+    "staff": {
+      "filters": ["staff", "administradores", "moderadores", "equipo"],
+      "cleanPatterns": ["^(staff|administradores|moderadores|equipo)\\s*", "^(son|tenemos)\\s*"]
+    },
+    "banner": {
+      "filters": ["banner", "enlace", "link", "imagen"],
+      "cleanPatterns": ["^(banner|enlace|link|imagen)\\s*", "^(es|está en)\\s*"]
+    },
+    "additionalInfo": {
+      "filters": ["adicional", "extra", "también", "además"],
+      "cleanPatterns": ["^(adicional|extra|también|además)\\s*", "^(información|info)\\s*"]
+    }
+  },
+  "skipMessages": {
+    "staff": "Perfecto, continuaremos sin mencionar staff específico.",
+    "banner": "Entendido, crearemos la plantilla sin banner.",
+    "additionalInfo": "Muy bien, tenemos toda la información necesaria."
+  }
+}

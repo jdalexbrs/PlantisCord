@@ -1,0 +1,215 @@
+
+{
+  "patterns": {
+    "decorativeElements": [
+      "▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "═══════════════════════════════",
+      "╔══════════════════════════╗",
+      "╚══════════════════════════╝",
+      "╭─────────── ✦ ⁺.",
+      "╰────────────  ✦ ⁺.",
+      "⋆﹥━━━━━━━━━━━━﹤⋆﹥━━━━━━━━━━━━﹤⋆",
+      "╬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬╬",
+      "║🌌 **¡ÚNETE AL CLAN {serverName}!** 🌌║",
+      "═══━━━─── • ───━━━═══",
+      "⚔️ ═══════════════════════════════ ⚔️",
+      "🔥🌋 𝐂𝐋𝐀𝐍 {serverName} | 𝐄𝐋 𝐑𝐄𝐍𝐀𝐂𝐄𝐑 𝐋𝐄𝐆𝐄𝐍𝐃𝐀𝐑𝐈𝐎 🌋🔥",
+      "⚔️ 『{serverName}』 ⚔️",
+      "🔥 **{serverName}** 🔥",
+      "💫 ¡ÚNETE AL CLAN {serverName}! 💫",
+      "🥇 🎯CLAN {serverName} 🥇 🎯"
+    ],
+    "titles": [
+      "⚔️ 『{serverName}』 ⚔️",
+      "🔥 **{serverName}** 🔥",
+      "💫 ¡ÚNETE AL CLAN {serverName}! 💫",
+      "🥇 CLAN {serverName} 🥇",
+      "👑 Clan {serverName} 👑",
+      "🌟 CLAN {serverName} RECLUTA 🌟",
+      "🚨 Clan {serverName} Recluta! 🚨",
+      "🔥🌋 𝐂𝐋𝐀𝐍 {serverName} 🌋🔥"
+    ],
+    "sectionHeaders": {
+      "offers": [
+        "🎉 **LO QUE OFRECEMOS** 🎉",
+        "🎁 ¿QUÉ OFRECEMOS?",
+        "⚜️ ¿Qué ofrecemos?",
+        "🤲 OFRECEMOS",
+        "💎 **¿Qué te ofrecemos?**",
+        "🌟 ¿Qué ofrecemos?",
+        "✠ ¿Qué ofrecemos? ✠",
+        "🔥 TE OFRECEMOS 🔥",
+        "🏰 ¿QUÉ OFRECEMOS EN {serverName}?",
+        "🎁 Que ofrecemos"
+      ],
+      "requirements": [
+        "📜 **BUSCAMOS NUEVOS MIEMBROS** 📜",
+        "🔍 ¿QUÉ BUSCAMOS? 🔍",
+        "🔎 ¿Que buscamos?",
+        "📝 REQUISITOS",
+        "✅ REQUISITOS",
+        "📋 Requisitos",
+        "🔍 BUSCAMOS",
+        "⚡ ¡RECLUTAMOS SOLO A LOS MÁS ÉPICOS!",
+        "🛡️ ¿A QUIÉN LLAMAMOS A NUESTRA LLAMA?",
+        "🙏 **NECESITAMOS MIEMBROS**"
+      ],
+      "location": [
+        "🌍 **Estamos en:**",
+        "📌 **¿Dónde estamos ubicados?**",
+        "🗺️ ¿Donde Nos Ubicamos?",
+        "🌍 Modalidades",
+        "📍 Ubicación:",
+        "🌎 **DÓNDE JUGAMOS**"
+      ],
+      "alliances": [
+        "🤝 **ALIANZAS**",
+        "🏹 Aliados",
+        "🤝 NUESTRAS ALIANZAS",
+        "🔥🤝 𝗔𝗟𝗜𝗔𝗡𝗭𝗔𝗦 𝗗𝗘 𝗙𝗨𝗘𝗚𝗢 𝗘𝗧𝗘𝗥𝗡𝗢 🤝🔥",
+        "⚜️ Alianzas"
+      ],
+      "leaders": [
+        "👑 **FUNDADORES DEL CLAN**",
+        "👑 Líderes del clan",
+        "**Owners**",
+        "👑 LIDERAZGO",
+        "**Líderes:**",
+        "🔥 **FUNDADORES DEL CLAN** 🔥"
+      ]
+    },
+    "minecraftElements": [
+      "Base grande 151x151",
+      "Base muy extensa 200x200",
+      "Granjas OP comunitarias",
+      "Granjas de XP/Dinero",
+      "Parcelas 15x15",
+      "Parcelas 21x21/11x11",
+      "Discord bien configurado",
+      "Sorteos semanales OP",
+      "Eventos casi semanales",
+      "Protección en /warp pvp",
+      "Arena PvP",
+      "Granjas de hierro",
+      "Kits para comenzar",
+      "Drops exclusivos",
+      "Sistema de tickets",
+      "Comunidad no tóxica",
+      "Staff 24/7",
+      "Beneficios por boost",
+      "Rewards por nivel muy OP",
+      "Canal de Economia",
+      "Nuestro propio bot",
+      "Alianzas con otros clanes",
+      "Warps Épicos",
+      "Fortalezas Inquebrantables"
+    ],
+    "roleTypes": [
+      "⚔️ Guerreros",
+      "🧑‍🌾 Farmers",
+      "🏗️ Builders/Constructores",
+      "⛏️ Mineros", 
+      "👮 Staff/Moderadores",
+      "💰 Donadores",
+      "🤝 Aliados",
+      "📹 Influencers",
+      "💜 Boosters",
+      "👷‍♂️ Constructores experimentados",
+      "⚒️ Farmeadores dedicados",
+      "🔮 Boosters",
+      "🏹 Aliados fieles hasta la muerte"
+    ],
+    "serverVersions": [
+      "1.21 #1", "1.21 #2", "1.21 #3",
+      "1.20 #1", "1.20 #2", "1.20 #3", 
+      "1.18 #1", "1.18 #2", "1.18 #3",
+      "Box PvP", "Hardcore", "Gens"
+    ],
+    "requirements": [
+      "No estar en otro clan",
+      "Ser activo en NauticMC",
+      "No ser tóxico",
+      "Tener más de 10 años",
+      "Tener más de 13 años",
+      "Tener rango",
+      "Ser activo en Discord",
+      "Tener experiencia en Nautic",
+      "Ser amable con la comunidad",
+      "Tener habilidades en PvP/Building/Farming",
+      "Ser de confianza",
+      "Tener micrófono decente",
+      "Respetar a los demás"
+    ]
+  },
+  "phrases": {
+    "welcomeMessages": [
+      "Somos una gran comunidad llamada {serverName} donde todos la pasan muy bien",
+      "¿Has estado buscando un clan maravilloso respetuoso?",
+      "El clan {serverName} está abierto para todos los usuarios",
+      "Somos un clan de NauticMC en crecimiento",
+      "¿Has estado buscando un clan pero ninguno te acepta? ¡Pues has llegado al lugar correcto!",
+      "Bienvenido a {serverName}, el clan más épico de nuestro servidor",
+      "Somos una hermandad de jugadores apasionados por Minecraft"
+    ],
+    "callToAction": [
+      "¡Qué esperas? ¡Únete ya!",
+      "🔥 ¡EL DESTINO TE ESPERA! 🔥",
+      "¡Únete y sé parte de nosotros!",
+      "¿Qué estás esperando para unirte?",
+      "¡No te pierdas la oportunidad!",
+      "¡Forma parte del dominio de {serverName}!",
+      "¡Te esperamos con los brazos abiertos!",
+      "Porque en {serverName}... ¡Nadie lucha solo!",
+      "¡Esperamos darle la bienvenida a nuevos miembros valientes!"
+    ],
+    "epicPhrases": [
+      "De las sombras a la gloria",
+      "No somos solo un clan... somos una leyenda en construcción",
+      "El renacimiento legendario ha comenzado", 
+      "Prepárate para la batalla definitiva",
+      "El destino te ha traído hasta aquí",
+      "Somos una FUERZA IMPARABLE",
+      "Únete a la leyenda eterna"
+    ]
+  },
+  "templates": {
+    "minecraftClan": {
+      "formal": {
+        "structure": [
+          "decorative_header",
+          "clan_info_section", 
+          "location_section",
+          "offers_section",
+          "requirements_section",
+          "alliances_section",
+          "leaders_section",
+          "contact_section"
+        ]
+      },
+      "emotional": {
+        "structure": [
+          "emotional_header",
+          "welcome_message",
+          "community_description", 
+          "offers_section_emotional",
+          "requirements_section_emotional",
+          "alliance_family",
+          "staff_family",
+          "join_family_call"
+        ]
+      },
+      "epic": {
+        "structure": [
+          "epic_battle_header",
+          "legendary_introduction",
+          "power_showcase",
+          "recruitment_call", 
+          "alliance_forces",
+          "supreme_leaders",
+          "destiny_call"
+        ]
+      }
+    }
+  }
+}
